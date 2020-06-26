@@ -1,15 +1,22 @@
 {
   "name": "finsa",
-  "displayName": "finsa",
+  "displayName": "Finsa",
   "expo": {
     "name": "finsa",
     "slug": "finsa",
     "version": "1.0.0",
+    "icon": "./assets/logo1024.png",
+    "splash": {
+      "image": "./assets/screen.png",
+      "backgroundColor": "#FFFFFF"
+    },
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
+    "android": {
+      "package": "com.finsac.finsa",
+      "versionCode": 1
+    },
     "assetBundlePatterns": [
       "**/*"
     ]
